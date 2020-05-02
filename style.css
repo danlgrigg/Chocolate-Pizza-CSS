@@ -1,0 +1,24 @@
+body {
+    font-family: 18px/28px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    justify-items: center;
+    
+}
+
+.grid-container{
+    background: salmon;
+    display: inline-table;
+    max-width: 960px;
+    
+
+}
+
+.row-nav {
+    border-bottom: 10px gray dotted;
+}
+ /*-- our cleafix hack -- */ 
+ .row:before, 
+ .row:after {
+     content:"";
+     display: table ;
+     clear:both;
+ }
