@@ -1,0 +1,44 @@
+body {
+    font-family: 18px/28px "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.grid-container{
+    max-width: 960px;
+    width: 100%;
+    background: salmon;
+    display: grid;
+   
+}
+/*-- our cleafix hack -- */ 
+.row:before, 
+.row:after {
+    content:"";
+    display: table ;
+    clear:both;
+}
+
+nav-header {
+    min-height: 1px; 
+    font-style: ;
+}
+
+img.logo {
+    float: left;
+}
+
+div.nav-icons {
+    float: right;
+}
+
+h1 {
+    font-style:  "Zapf Chancery", cursive;
+}
+
+.row-nav {
+    border-bottom: 10px gray dotted;
+}
+
+ul {
+    list-style: disc;
+  }
