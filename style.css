@@ -6,21 +6,26 @@ body {
 .grid-container{
     max-width: 960px;
     width: 100%;
-    background: salmon;
     display: grid;
-   
 }
-/*-- our cleafix hack -- */ 
+
+/* -- our cleafix hack -- 
 .row:before, 
 .row:after {
     content:"";
     display: table ;
     clear:both;
+} */
+
+nav-logo {
+    min-height: 1px; 
+    float: left;
+    
 }
 
-nav-header {
-    min-height: 1px; 
-    font-style: ;
+print-icon {
+    clear: left;
+    float: right;
 }
 
 img.logo {
@@ -39,6 +44,12 @@ h1 {
     border-bottom: 10px gray dotted;
 }
 
+.list {
+background-image: url("assets/list-bg.png");
+background-repeat: no-repeat;
+float: center;
+}
+
 ul {
-    list-style: disc;
+    list-style: circle;
   }
